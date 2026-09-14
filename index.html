@@ -1,39 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SWF Player</title>
-
-  <!-- Ruffle: Flash emulator (loaded from CDN) -->
-  <!--script src="https://unpkg.com/@ruffle-rs/ruffle"></script-->
-    <script src="ruffle.js"></script>
-
-  <style>
-    * { box-sizing: border-box; }
-    html, body {
-      margin: 0;
-      height: 100%;
-      background: #000;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    embed {
-      width: 90vw;
-      max-width: 900px;
-      aspect-ratio: 4 / 3;
-      background: #000;
-    }
-  </style>
+  <title>My Flash Content</title>
+  <script src="ruffle.js"></script>
 </head>
-<body>
-
-  <!--
-    Make sure SpeedRacer_mini_Approved.swf is uploaded to the same folder
-    as this index.html (or update the path below if you put it in a subfolder).
-  -->
+<body style="margin:0;">
   <embed src="SpeedRacer_mini_Approved.swf" width="100%" height="100%">
-
 </body>
 </html>
